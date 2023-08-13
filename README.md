@@ -1,1 +1,1 @@
-# Scribble
+# Jot menu bar notes for MacOS
