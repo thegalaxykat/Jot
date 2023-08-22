@@ -15,8 +15,10 @@ struct ContentView: View {
             Image(systemName: "square.and.pencil")
                 .imageScale(.large)
                 .foregroundColor(.white)
-            Spacer(minLength: 20)
+            Spacer(minLength: 10)
             TextEditor(text: $text)
+                .frame(width: 275, height: 300)
+                .font(.system(size: 14))
         }
         .padding()
     }
