@@ -6,9 +6,10 @@
 //
 
 import SwiftUI
+import DebouncedOnChange
 
 struct ContentView: View {
-    @State var text = ""
+    @State var text = loadInitialText()
 
     var body: some View {
         VStack {
@@ -19,6 +20,10 @@ struct ContentView: View {
             TextEditor(text: $text)
                 .frame(width: 275, height: 300)
                 .font(.system(size: 14))
+                // save text after change
+                .onChange(of:text, debounceTime: .seconds(3)) { newValue in
+                    saveText(data: text)
+                }
         }
         .padding()
     }
