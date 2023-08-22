@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		464EA89D2A93E75900B70AED /* JotAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464EA89C2A93E75900B70AED /* JotAppApp.swift */; };
+		464EA89F2A93E75900B70AED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464EA89E2A93E75900B70AED /* ContentView.swift */; };
+		464EA8A12A93E75A00B70AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464EA8A02A93E75A00B70AED /* Assets.xcassets */; };
+		464EA8A42A93E75A00B70AED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464EA8A32A93E75A00B70AED /* Preview Assets.xcassets */; };
+		464EA8AF2A93E75A00B70AED /* JotAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464EA8AE2A93E75A00B70AED /* JotAppTests.swift */; };
+		464EA8B92A93E75A00B70AED /* JotAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464EA8B82A93E75A00B70AED /* JotAppUITests.swift */; };
+		464EA8BB2A93E75A00B70AED /* JotAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464EA8BA2A93E75A00B70AED /* JotAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		464EA8AB2A93E75A00B70AED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 464EA8912A93E75900B70AED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464EA8982A93E75900B70AED;
+			remoteInfo = JotApp;
+		};
+		464EA8B52A93E75A00B70AED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 464EA8912A93E75900B70AED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 464EA8982A93E75900B70AED;
+			remoteInfo = JotApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		464EA8992A93E75900B70AED /* JotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		464EA89C2A93E75900B70AED /* JotAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JotAppApp.swift; sourceTree = "<group>"; };
+		464EA89E2A93E75900B70AED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		464EA8A02A93E75A00B70AED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		464EA8A32A93E75A00B70AED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		464EA8A52A93E75A00B70AED /* JotApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JotApp.entitlements; sourceTree = "<group>"; };
+		464EA8AA2A93E75A00B70AED /* JotAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JotAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		464EA8AE2A93E75A00B70AED /* JotAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JotAppTests.swift; sourceTree = "<group>"; };
+		464EA8B42A93E75A00B70AED /* JotAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JotAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		464EA8B82A93E75A00B70AED /* JotAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JotAppUITests.swift; sourceTree = "<group>"; };
+		464EA8BA2A93E75A00B70AED /* JotAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JotAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464EA8962A93E75900B70AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464EA8A72A93E75A00B70AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464EA8B12A93E75A00B70AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		464EA8902A93E75900B70AED = {
+			isa = PBXGroup;
+			children = (
+				464EA89B2A93E75900B70AED /* JotApp */,
+				464EA8AD2A93E75A00B70AED /* JotAppTests */,
+				464EA8B72A93E75A00B70AED /* JotAppUITests */,
+				464EA89A2A93E75900B70AED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		464EA89A2A93E75900B70AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				464EA8992A93E75900B70AED /* JotApp.app */,
+				464EA8AA2A93E75A00B70AED /* JotAppTests.xctest */,
+				464EA8B42A93E75A00B70AED /* JotAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		464EA89B2A93E75900B70AED /* JotApp */ = {
+			isa = PBXGroup;
+			children = (
+				464EA89C2A93E75900B70AED /* JotAppApp.swift */,
+				464EA89E2A93E75900B70AED /* ContentView.swift */,
+				464EA8A02A93E75A00B70AED /* Assets.xcassets */,
+				464EA8A52A93E75A00B70AED /* JotApp.entitlements */,
+				464EA8A22A93E75A00B70AED /* Preview Content */,
+			);
+			path = JotApp;
+			sourceTree = "<group>";
+		};
+		464EA8A22A93E75A00B70AED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				464EA8A32A93E75A00B70AED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		464EA8AD2A93E75A00B70AED /* JotAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				464EA8AE2A93E75A00B70AED /* JotAppTests.swift */,
+			);
+			path = JotAppTests;
+			sourceTree = "<group>";
+		};
+		464EA8B72A93E75A00B70AED /* JotAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				464EA8B82A93E75A00B70AED /* JotAppUITests.swift */,
+				464EA8BA2A93E75A00B70AED /* JotAppUITestsLaunchTests.swift */,
+			);
+			path = JotAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		464EA8982A93E75900B70AED /* JotApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464EA8BE2A93E75A00B70AED /* Build configuration list for PBXNativeTarget "JotApp" */;
+			buildPhases = (
+				464EA8952A93E75900B70AED /* Sources */,
+				464EA8962A93E75900B70AED /* Frameworks */,
+				464EA8972A93E75900B70AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JotApp;
+			productName = JotApp;
+			productReference = 464EA8992A93E75900B70AED /* JotApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		464EA8A92A93E75A00B70AED /* JotAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464EA8C12A93E75A00B70AED /* Build configuration list for PBXNativeTarget "JotAppTests" */;
+			buildPhases = (
+				464EA8A62A93E75A00B70AED /* Sources */,
+				464EA8A72A93E75A00B70AED /* Frameworks */,
+				464EA8A82A93E75A00B70AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				464EA8AC2A93E75A00B70AED /* PBXTargetDependency */,
+			);
+			name = JotAppTests;
+			productName = JotAppTests;
+			productReference = 464EA8AA2A93E75A00B70AED /* JotAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		464EA8B32A93E75A00B70AED /* JotAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464EA8C42A93E75A00B70AED /* Build configuration list for PBXNativeTarget "JotAppUITests" */;
+			buildPhases = (
+				464EA8B02A93E75A00B70AED /* Sources */,
+				464EA8B12A93E75A00B70AED /* Frameworks */,
+				464EA8B22A93E75A00B70AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				464EA8B62A93E75A00B70AED /* PBXTargetDependency */,
+			);
+			name = JotAppUITests;
+			productName = JotAppUITests;
+			productReference = 464EA8B42A93E75A00B70AED /* JotAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		464EA8912A93E75900B70AED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					464EA8982A93E75900B70AED = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					464EA8A92A93E75A00B70AED = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 464EA8982A93E75900B70AED;
+					};
+					464EA8B32A93E75A00B70AED = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 464EA8982A93E75900B70AED;
+					};
+				};
+			};
+			buildConfigurationList = 464EA8942A93E75900B70AED /* Build configuration list for PBXProject "JotApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 464EA8902A93E75900B70AED;
+			productRefGroup = 464EA89A2A93E75900B70AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				464EA8982A93E75900B70AED /* JotApp */,
+				464EA8A92A93E75A00B70AED /* JotAppTests */,
+				464EA8B32A93E75A00B70AED /* JotAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		464EA8972A93E75900B70AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464EA8A42A93E75A00B70AED /* Preview Assets.xcassets in Resources */,
+				464EA8A12A93E75A00B70AED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464EA8A82A93E75A00B70AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464EA8B22A93E75A00B70AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		464EA8952A93E75900B70AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464EA89F2A93E75900B70AED /* ContentView.swift in Sources */,
+				464EA89D2A93E75900B70AED /* JotAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464EA8A62A93E75A00B70AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464EA8AF2A93E75A00B70AED /* JotAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464EA8B02A93E75A00B70AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464EA8BB2A93E75A00B70AED /* JotAppUITestsLaunchTests.swift in Sources */,
+				464EA8B92A93E75A00B70AED /* JotAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		464EA8AC2A93E75A00B70AED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 464EA8982A93E75900B70AED /* JotApp */;
+			targetProxy = 464EA8AB2A93E75A00B70AED /* PBXContainerItemProxy */;
+		};
+		464EA8B62A93E75A00B70AED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 464EA8982A93E75900B70AED /* JotApp */;
+			targetProxy = 464EA8B52A93E75A00B70AED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		464EA8BC2A93E75A00B70AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		464EA8BD2A93E75A00B70AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		464EA8BF2A93E75A00B70AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JotApp/JotApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JotApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2D446L638R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = galaxykat.JotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		464EA8C02A93E75A00B70AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JotApp/JotApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JotApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2D446L638R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = galaxykat.JotApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		464EA8C22A93E75A00B70AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D446L638R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = galaxykat.JotAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JotApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JotApp";
+			};
+			name = Debug;
+		};
+		464EA8C32A93E75A00B70AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D446L638R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = galaxykat.JotAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JotApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JotApp";
+			};
+			name = Release;
+		};
+		464EA8C52A93E75A00B70AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D446L638R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = galaxykat.JotAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JotApp;
+			};
+			name = Debug;
+		};
+		464EA8C62A93E75A00B70AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D446L638R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = galaxykat.JotAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = JotApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		464EA8942A93E75900B70AED /* Build configuration list for PBXProject "JotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464EA8BC2A93E75A00B70AED /* Debug */,
+				464EA8BD2A93E75A00B70AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464EA8BE2A93E75A00B70AED /* Build configuration list for PBXNativeTarget "JotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464EA8BF2A93E75A00B70AED /* Debug */,
+				464EA8C02A93E75A00B70AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464EA8C12A93E75A00B70AED /* Build configuration list for PBXNativeTarget "JotAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464EA8C22A93E75A00B70AED /* Debug */,
+				464EA8C32A93E75A00B70AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464EA8C42A93E75A00B70AED /* Build configuration list for PBXNativeTarget "JotAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464EA8C52A93E75A00B70AED /* Debug */,
+				464EA8C62A93E75A00B70AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 464EA8912A93E75900B70AED /* Project object */;
+}
