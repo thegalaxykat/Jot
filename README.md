@@ -19,6 +19,8 @@ That being said, Jot will **automatically save your changes** so you don't lose 
 
 Alas Apple makes me pay a yearly fee to export signed apps and so I can not provide you with a nice little DMG. If you want to use Jot you'll have to download the code and compile it yourself (if anyone knows a way around this please let me know and I'll provide a release!). 
 
+Exporting the project as an archive and then moving the `JotApp.app` file to my applications directory did the trick for me.
+
 
 ## Packages
 
