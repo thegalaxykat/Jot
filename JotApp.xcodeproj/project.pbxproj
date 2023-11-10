@@ -16,6 +16,7 @@
 		464EA8BB2A93E75A00B70AED /* JotAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464EA8BA2A93E75A00B70AED /* JotAppUITestsLaunchTests.swift */; };
 		46687CBC2A9541A800BB0006 /* DebouncedOnChange in Frameworks */ = {isa = PBXBuildFile; productRef = 46687CBB2A9541A800BB0006 /* DebouncedOnChange */; };
 		46687CBE2A954E3100BB0006 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46687CBD2A954E3100BB0006 /* UserDefaults.swift */; };
+		46F74AE02AA945FB002460A5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F74ADF2AA945FB002460A5 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		464EA8B82A93E75A00B70AED /* JotAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JotAppUITests.swift; sourceTree = "<group>"; };
 		464EA8BA2A93E75A00B70AED /* JotAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JotAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		46687CBD2A954E3100BB0006 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		46F74ADF2AA945FB002460A5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				464EA89C2A93E75900B70AED /* JotAppApp.swift */,
+				46F74ADF2AA945FB002460A5 /* SettingsView.swift */,
 				464EA89E2A93E75900B70AED /* ContentView.swift */,
 				464EA8A02A93E75A00B70AED /* Assets.xcassets */,
 				464EA8A52A93E75A00B70AED /* JotApp.entitlements */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46687CBE2A954E3100BB0006 /* UserDefaults.swift in Sources */,
+				46F74AE02AA945FB002460A5 /* SettingsView.swift in Sources */,
 				464EA89F2A93E75900B70AED /* ContentView.swift in Sources */,
 				464EA89D2A93E75900B70AED /* JotAppApp.swift in Sources */,
 			);

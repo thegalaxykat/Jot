@@ -14,5 +14,9 @@ struct JotAppApp: App {
             ContentView()
         }
         .menuBarExtraStyle(.window) //popover window instead of menu
+        
+        Settings {
+            SettingsView()
+        }
     }
 }
